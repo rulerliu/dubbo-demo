@@ -1,11 +1,11 @@
 package com.test;
 
-import java.io.IOException;
-
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.io.IOException;
+
 public class Test {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:springmvc.xml");
         context.start();
 
